@@ -1,0 +1,60 @@
+body{
+    position: relative;
+}
+table td {
+    width: 50%;
+}
+td{
+    height: 150%;
+    margin: 80px;
+    background-color: #fdf6de;
+}
+h2{
+    color:purple;
+    font-size: 30px;
+}
+p{
+    color:black;
+    font-size: 15px;
+}
+.titulo{
+    width: 99vw;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(../imagenes/descarga.gif);
+    background-size: cover;
+    background-position: center;
+}
+.navegacion{
+    position: absolute;
+    text-align: right;
+    top: 14px;
+    right: 20px;
+}
+.navegacion a {
+    margin-left: 15px;
+    font-size: 110%;
+    color: #FFF610;
+}
+.beneficios-texto{
+    color: #FFF610;
+    text-align: center;
+    font-family: Cursive, Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+
+}
+
+.flex-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 90%;
+}
+.flex-container img {
+    margin-right: 20px; 
+}
+.text-container h2{
+    margin-bottom: 20px;
+}
